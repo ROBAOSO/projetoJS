@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Primeiros Passos com DOM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+
+    <h1>Iniciando Estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div>Clique em mim</div><br>
+
+    <script>
+    
+       var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+        p1.style.color ='black'
+
+            document.write(p1.innerHTML)
+
+    </script>
+
+
+
+
+</body>
+</html>
